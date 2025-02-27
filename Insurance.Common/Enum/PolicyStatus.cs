@@ -3,10 +3,10 @@
     public enum PolicyStatusEnum
     {
 
-        Initial =0,
-        Pending =1,
-        Bound =2,
-        Expired=3
+        Initial =1,
+        Pending =2,
+        Bound =3,
+        Expired=4
 
     }
 }

@@ -18,11 +18,11 @@ namespace InsuranceWebAPI.Controllers
             _configurationManager = configurationManager;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetInsuranceData(int customerId)
+        [HttpGet("{Id}")]
+        public async Task<IActionResult> GetInsuranceData(int Id)
         {
-            var customerTask = GetCustomerAsync(customerId);
-            var policyTask = GetPolicyAsync(customerId);
+            var customerTask = GetCustomerAsync(Id);
+            var policyTask = GetPolicyAsync(Id);
 
             await Task.WhenAll(customerTask, policyTask);
 
