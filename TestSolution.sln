@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessConstClass", "AccessConstClass\AccessConstClass.csproj", "{A606EBC5-037F-412C-A283-600E241B99B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetSound", "PetSound\PetSound.csproj", "{C8361ADC-3B25-4E1C-AC8D-30FA6BE427F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance.Model", "Insurance.Model\Insurance.Model.csproj", "{EC3A2078-F065-4BF6-B528-0CE1D0C54D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance.Common", "Insurance.Common\Insurance.Common.csproj", "{16182AE0-B6B8-495C-9F0D-E527D5FD78AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance.CustomerWebAPI", "CustomerWebAPI\Insurance.CustomerWebAPI.csproj", "{8440F60E-F51D-4F6B-A439-35E56F7C9BA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance.PolicyWebAPI", "PolicyWebAPI\Insurance.PolicyWebAPI.csproj", "{49C2D636-91FC-4658-AA0D-9CF200633ECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceWebAPI", "InsuranceWebAPI\InsuranceWebAPI.csproj", "{B7427201-59ED-4A59-9461-87586D8A1319}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A606EBC5-037F-412C-A283-600E241B99B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A606EBC5-037F-412C-A283-600E241B99B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A606EBC5-037F-412C-A283-600E241B99B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A606EBC5-037F-412C-A283-600E241B99B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8361ADC-3B25-4E1C-AC8D-30FA6BE427F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8361ADC-3B25-4E1C-AC8D-30FA6BE427F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8361ADC-3B25-4E1C-AC8D-30FA6BE427F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8361ADC-3B25-4E1C-AC8D-30FA6BE427F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3A2078-F065-4BF6-B528-0CE1D0C54D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3A2078-F065-4BF6-B528-0CE1D0C54D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3A2078-F065-4BF6-B528-0CE1D0C54D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3A2078-F065-4BF6-B528-0CE1D0C54D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16182AE0-B6B8-495C-9F0D-E527D5FD78AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16182AE0-B6B8-495C-9F0D-E527D5FD78AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16182AE0-B6B8-495C-9F0D-E527D5FD78AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16182AE0-B6B8-495C-9F0D-E527D5FD78AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8440F60E-F51D-4F6B-A439-35E56F7C9BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8440F60E-F51D-4F6B-A439-35E56F7C9BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8440F60E-F51D-4F6B-A439-35E56F7C9BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8440F60E-F51D-4F6B-A439-35E56F7C9BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C2D636-91FC-4658-AA0D-9CF200633ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C2D636-91FC-4658-AA0D-9CF200633ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C2D636-91FC-4658-AA0D-9CF200633ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C2D636-91FC-4658-AA0D-9CF200633ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7427201-59ED-4A59-9461-87586D8A1319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7427201-59ED-4A59-9461-87586D8A1319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7427201-59ED-4A59-9461-87586D8A1319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7427201-59ED-4A59-9461-87586D8A1319}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38314594-E934-4333-84F2-E8A8AA6288B4}
+	EndGlobalSection
+EndGlobal
