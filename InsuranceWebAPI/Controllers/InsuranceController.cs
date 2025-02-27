@@ -3,11 +3,13 @@ using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 using Insurance.Model;
 using System.Text.Json;
+using Microsoft.AspNetCore.Authorization;
 
 namespace InsuranceWebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class InsuranceController : ControllerBase
     {
         private readonly IHttpClientFactory _httpClientFactory;
@@ -27,9 +29,9 @@ namespace InsuranceWebAPI.Controllers
             await Task.WhenAll(customerTask, policyTask);
 
             var customer = await customerTask;
-            var policy = await policyTask; 
+            var policy = await policyTask;
 
-            return Ok(new { Customer = customer, Policy = policy });
+			return Ok(new Insurance.Model.InsuranceResponse{ Customer = customer, Policy = policy });
         }
 
         private async Task<Customer> GetCustomerAsync(int customerId=0)

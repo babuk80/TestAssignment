@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessConstClass", "AccessConstClass\AccessConstClass.csproj", "{A606EBC5-037F-412C-A283-600E241B99B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessConstClass", "AccessConstClass\AccessConstClass.csproj", "{A606EBC5-037F-412C-A283-600E241B99B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetSound", "PetSound\PetSound.csproj", "{C8361ADC-3B25-4E1C-AC8D-30FA6BE427F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetSound", "PetSound\PetSound.csproj", "{C8361ADC-3B25-4E1C-AC8D-30FA6BE427F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance.Model", "Insurance.Model\Insurance.Model.csproj", "{EC3A2078-F065-4BF6-B528-0CE1D0C54D08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurance.Model", "Insurance.Model\Insurance.Model.csproj", "{EC3A2078-F065-4BF6-B528-0CE1D0C54D08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance.Common", "Insurance.Common\Insurance.Common.csproj", "{16182AE0-B6B8-495C-9F0D-E527D5FD78AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurance.Common", "Insurance.Common\Insurance.Common.csproj", "{16182AE0-B6B8-495C-9F0D-E527D5FD78AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance.CustomerWebAPI", "CustomerWebAPI\Insurance.CustomerWebAPI.csproj", "{8440F60E-F51D-4F6B-A439-35E56F7C9BA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurance.CustomerWebAPI", "CustomerWebAPI\Insurance.CustomerWebAPI.csproj", "{8440F60E-F51D-4F6B-A439-35E56F7C9BA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance.PolicyWebAPI", "PolicyWebAPI\Insurance.PolicyWebAPI.csproj", "{49C2D636-91FC-4658-AA0D-9CF200633ECB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Insurance.PolicyWebAPI", "PolicyWebAPI\Insurance.PolicyWebAPI.csproj", "{49C2D636-91FC-4658-AA0D-9CF200633ECB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceWebAPI", "InsuranceWebAPI\InsuranceWebAPI.csproj", "{B7427201-59ED-4A59-9461-87586D8A1319}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsuranceWebAPI", "InsuranceWebAPI\InsuranceWebAPI.csproj", "{B7427201-59ED-4A59-9461-87586D8A1319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerApp", "CustomerApp\CustomerApp.csproj", "{9F4F789A-DF34-4198-9592-80096CA5184B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{B7427201-59ED-4A59-9461-87586D8A1319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7427201-59ED-4A59-9461-87586D8A1319}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7427201-59ED-4A59-9461-87586D8A1319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4F789A-DF34-4198-9592-80096CA5184B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4F789A-DF34-4198-9592-80096CA5184B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4F789A-DF34-4198-9592-80096CA5184B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4F789A-DF34-4198-9592-80096CA5184B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

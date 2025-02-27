@@ -18,7 +18,7 @@ namespace CustomerWebAPI.Controllers
             var customer = new Insurance.Model.Customer()
             {
                 Id = id,
-                Name = "John Doe",
+                Name = "John Doe "+id.ToString(),
                 Email = "rakesh.chawathari@gmail.com",
                 Phone = "+19030234234",
                 Address = "123 Main St",

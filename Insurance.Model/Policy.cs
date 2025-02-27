@@ -31,6 +31,9 @@ namespace Insurance.Model
         [JsonPropertyName("expirydate")]
 
         public DateTime? ExpiryDate { get; set;}
+        [JsonPropertyName("premium")]
+
+        public decimal? Premium { get; set; }
 
     }
 }
